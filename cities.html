@@ -13,6 +13,23 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light border">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="cities.html">A Few Cities</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavDiv"
+            aria-controls="collapseNavDiv" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapseNavDiv">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-link active"><a href="basic.html">Basic</a></li>
+                <li class="nav-link"><a href="advanced.html">Advanced</a></li>
+        </div>
+    </div>
+    </div>
+</nav>
+
     <h1>Visit cities with Abhinaya Tanniru</h1>
 
    <div class="container"></div>
@@ -139,8 +156,8 @@
       <button type="button" class="btn btn-info">R</button>
   </div>
     <br>
-    <nav class="navbar"></nav> 
-    <span class="navbar-label">Button Groups</span>
+   <nav class="navbar"></nav> 
+  <span class="navbar-label">Button Groups</span>
      </nav>
       <div class="btn-toolbar">
       <div class="btn-group">
@@ -171,6 +188,23 @@
       </div>
       <br>
 
+      <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">City</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your city">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br><br>
 
 </body>
 </html>
